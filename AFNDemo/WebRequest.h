@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+#import "AFNetworking.h"
+
 @interface WebRequest : NSObject
+
+
+-(void)requestNameWithID:(NSString *)ID WithSuccess:(void (^)(AFHTTPRequestOperation *operation, id responseObject, NSDictionary *myData))success
+                 failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
 
 @end

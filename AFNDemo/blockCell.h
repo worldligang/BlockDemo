@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface blockCellTableViewCell : UITableViewCell
+
+
+@interface blockCell : UITableViewCell
+
++(UINib *)nib;
+
+typedef void(^switchAction)(blockCell *);
+
+@property (nonatomic,copy)switchAction action;
+
+@property (strong, nonatomic) IBOutlet UISwitch *switchBtn;
+
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+
+- (IBAction)switchToggle:(id)sender;
 
 @end

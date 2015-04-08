@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A978C7B-5A62-4384-BB91-D98E31102EEA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AFNDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F31719862A4C10291069A8009E046C2AE1046087</key>
+		<string>https://github.com/worldligang/BlockDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AFNDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F31719862A4C10291069A8009E046C2AE1046087</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/worldligang/BlockDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F31719862A4C10291069A8009E046C2AE1046087</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F31719862A4C10291069A8009E046C2AE1046087</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BlockDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

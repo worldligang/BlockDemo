@@ -6,9 +6,13 @@
 //  Copyright (c) 2014年 芳仔小脚印. All rights reserved.
 //
 
-#import "blockCellTableViewCell.h"
+#import "blockCell.h"
 
-@implementation blockCellTableViewCell
+@implementation blockCell
+
++(UINib *)nib{
+    return [UINib nibWithNibName:NSStringFromClass(self) bundle:nil];
+}
 
 - (void)awakeFromNib {
     // Initialization code
@@ -20,4 +24,9 @@
     // Configure the view for the selected state
 }
 
+
+
+- (IBAction)switchToggle:(id)sender {
+    self.action(self);
+}
 @end
